@@ -1,0 +1,30 @@
+channel: {
+    channelId: String,         // Unique identifier for the channel
+    creatorId: String,         // References the userId of the creator
+    name: String,              // Channel name
+    description: String,       // Description of the channel
+    joinedUsers: [String],     // Array of userIds who have joined
+    createdAt: Date,           // Timestamp for creation
+}
+
+posts: {
+    postId: String,           // Unique identifier for the post
+    channelId: String,        // References the channel this post belongs to
+    header: String,           // Post title
+    body: String,             // Optional - Content of the post
+    createdAt: Date,          // Timestamp for creation
+    votes: [                  // Array to track user votes
+        { userId: String, voteType: String } // voteType: 'up' or 'down'
+    ],
+    comments: [String],       // Array of commentId's (separate collection)
+    media: [String],          // Array of media URLs/IDs
+}
+
+user: {
+    username: String,             // Unique identifier for the user
+    email: String,               // Email for the user
+    profilePicture: String,      // Optional - Profile picture URL
+    posts: [String],             // Array of post IDs created by the user
+    joinedChannels: [String],    // Array of channel IDs the user has joined
+}
+

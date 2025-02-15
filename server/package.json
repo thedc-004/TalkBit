@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is the folder for backend functionality of Reddit Clone.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "thedc004",
+  "license": "ISC",
+  "dependencies": {
+    "@react-oauth/google": "^0.12.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "express-async-errors": "^3.1.1",
+    "gapi-script": "^1.2.0",
+    "mongoose": "^8.9.4"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7"
+  }
+}
