@@ -1,7 +1,7 @@
 <hr/>
 <br/>
 <h1>TalkBit</h1>
-<p>TalkBit is a lightweight web application inspired by Reddit, designed to let user share their thoughts independently to the world. User can post about his/her hobbies, discuss about the current affiars, world affairs or any subject that he/she likes, with photos or videos through creation of channels and posts.</p>
+<p>TalkBit is a lightweight web application inspired by Reddit, designed to let users share their thoughts with the world independently. Users can post about their hobbies, discuss current affairs, world events, or any subject they like, along with photos or videos through the creation of channels and posts.</p>
 <br/>
 <hr/>
 
