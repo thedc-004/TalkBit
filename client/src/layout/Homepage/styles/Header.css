@@ -1,0 +1,8 @@
+@media (max-width: 620px) {
+  .responsive-image {
+    content: url("/logo.png");
+  }
+  .navmenu-item-text {
+    display: none;
+  }
+}
